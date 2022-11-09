@@ -1,0 +1,157 @@
+-- hello skid
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Arrifshah12 HUB", "BloodTheme")
+
+print("Script Executed!")
+print("YOU EXECUTED (giga chad) EXECUTED ARRIFSHAH12 HUB HAVE FUN")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("READ INFO'S LAZY PEOPLE")
+
+MainSection:NewButton("UTMM GUI", "Undertale In Roblox?? WTF", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nabhek/undertale-related-roblox-thing/main/test"))()
+end)
+
+
+MainSection:NewButton("Fates Admin", "Good Admin Script (FE)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+
+
+MainSection:NewButton("Infinite Yield", "FE Admin, OP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+MainSection:NewButton("Real A Bizarre Journey V2 GUI", "OP GUI (No Cooldown, TP tools UNIVERSAL", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/D3B2BF29BB22BF2B2B294G/56dd1d5f5a65262815e10e21fbf68fc7/raw/78c44fb8d4924f465ab1a15eaaf86f63dc938533/RealABJv2", true))()
+end)
+
+--LOCAL PLAYER
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewSlider("Walkspeed", "Gotta go kiss men!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("Jumppower", "Go Kill Those Goombas Their A Fucking Piece Of SHIT!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset WS And JP", "For The hit Ones That Forgets the Normal WS/JP", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+PlayerSection:NewButton("Saitama FE (R6)", "ONE PUNCCHHHHHHH!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/dJ3Mch90"))()
+end)
+
+--AN INFINITE ADVENTURE
+local AIA = Window:NewTab("AIA")
+local AIASection = AIA:NewSection("An Infinite Adventure")
+
+AIASection:NewButton("An Infinite Adventure", "SUB TO LEGO DUPER YT!", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/LegoDuper/AIAIG/main/GUIZ"),true))()
+end)
+
+--BEDWARS
+local Bedwars = Window:NewTab("Bedwars")
+local BedwarsSection = Bedwars:NewSection("Bedwars [All Modes]")
+
+BedwarsSection:NewButton("Vape V4", "By 7Grandad!", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"),true))()
+end)
+
+BedwarsSection:NewButton("Future", "By ???", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+--ARSENAL
+local Arsenal = Window:NewTab("Arsenal")
+local ArsenalSection = Arsenal:NewSection("Arsenal")
+
+ArsenalSection:NewButton("Dark Hub", "By ???", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+ArsenalSection:NewButton("Solaris", "By ???", function()
+    loadstring(game:HttpGet("https://solarishub.dev/script.lua", true))()
+end)
+
+--AMONGST US
+local AmongstUs = Window:NewTab("Amongst Us")
+local AmongstUsSection = AmongstUs:NewSection("Stuck in 2020 *sigh*")
+
+AmongstUsSection:NewButton("Amongst Us GUI", "By (In the GUI)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YhbdBRiw", true))()
+end)
+
+AmongstUsSection:NewButton("Psykek's GUI", "By (In the GUI)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Psykek66/eee/main/AUGUI.txt", true))()
+end)
+
+--PVZGW
+local PVZ = Window:NewTab("PVZ GW")
+local PVZSection = PVZ:NewSection("Plants VS Zombies Garden Warfare")
+local PVZSection = PVZ:NewSection("CLICK ALOT OF TIMES TO LEVEL UP FASTER")
+local PVZSection = PVZ:NewSection("REJOIN TO GET MOST OF THE SKINS!")
+local PVZSection = PVZ:NewSection("CHECK MONEY IS RUX SHOP WHEN EXECUTING IT")
+
+PVZSection:NewButton("Level Script", "By ???", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/vjHFx5md", true))()
+end)
+
+PVZSection:NewButton("Money Script", "By ???", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/E0dffjnf", true))()
+end)
+
+print("ahh~ error sans daddy~~ fuck me harder ahh!~")
+print("haha yes i love fucking with skeletons")
+
+--RAINBOW FRIENDS
+local RF = Window:NewTab("Rainbow Friends")
+local RFSection = RF:NewSection("Rainbow Friends")
+
+RFSection:NewButton("Rainbow Friends GUI", "By Tora IsMe, JN HH", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+end)
+
+RFSection:NewButton("BorkWare", "By ???", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
+end)
+
+--Sans Multiversal Battles
+local SMB = Window:NewTab("SMB")
+local SMBSection = SMB:NewSection("Sans Multiversal Battles")
+
+SMBSection:NewButton("Deathness", "Ah yes, the OG.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xylezx/Deathness-V1/main/Deathness", true))()
+end)
+
+SMBSection:NewButton("Triple's Custom GUI", "Triple Steve??!?!?", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xylezx/Triple-Steve/main/Custom%20GUI", true))()
+end)
+
+SMBSection:NewButton("Deathness V4", "Credits In GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xylezx/Deathness-V4/main/Deathness%20V4", true))()
+end)
+
+SMBSection:NewButton("Deathness V2", "Credits In GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xylezx/Deathness-V2/main/Deathness-V2", true))()
+end)
+
+SMBSection:NewButton("Overwrite (OP)", "By Triple", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GreenySteveyYtt/Overwrite/main/smb1overwrite.lua'))()
+end)
+
+--Sans Multiversal Battles 2
+local SMB2 = Window:NewTab("SMB2")
+local SMB2Section = SMB:NewSection("Sans Multiversal Battles 2")
+
+SMB2Section:NewButton("Acrylix", "By Tomfooler :]", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/3dsonsuce/acrylix/main/Acrylix'))()", true))()
+end)
